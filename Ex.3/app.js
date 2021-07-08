@@ -1,11 +1,10 @@
 const VOWELS = ['a', 'e', 'i', 'o', 'u'];
 
 const input = 'This text will be translated in the whale talk';
-
 let resultArray = [];
 
 for (let i = 0; i < input.length; i++) {
-  const letter = input[i];
+  const letter = input[i].toLowerCase();
 
   // for (let j = 0; j < VOWELS.length; j++) {
   //   const vowel = VOWELS[j];
