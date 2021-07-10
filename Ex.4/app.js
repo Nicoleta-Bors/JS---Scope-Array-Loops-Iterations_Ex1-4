@@ -38,16 +38,11 @@ const ex5 = () => {
 
 //ex.6 Calculate 10!
 const ex6 = () => {
-  // for (let i = 1; i <= 10; i++) {
-  //   for (let j = 1; j <= 10; j++) {
-  //     if (i + j === 10) console.log(`${i} + ${j} = ${i + j}`);
-  //   }
-  // }
-
+  let produs = 1;
   for (let i = 1; i <= 10; i++) {
-    let j = 10 - i;
-    console.log(`${i} + ${j} = ${i + j}`);
+    produs *= i;
   }
+  console.log(`10! = ${produs}`);
 };
 
 //ex.7 Calculate the sum of odd numbers greater than 10 and less than 30
